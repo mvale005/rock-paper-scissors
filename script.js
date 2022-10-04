@@ -4,8 +4,9 @@ let count = 0;
 
 
 function checkPersonChoice(){
-  let input= prompt("Enter: paper, rock or scissors","");
-let personChoice = input.toLowerCase();
+  //let input= prompt("Enter: paper, rock or scissors","");
+  //let personChoice = input.toLowerCase();
+  // remaking this so that it uses buttons and not taking input from a prompt, will delete above lines of code when more progress is made.
 
 for(let i= 0;i<choiceArray.length;i++) {
   if (personChoice == choiceArray[i]){
