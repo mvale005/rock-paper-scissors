@@ -61,6 +61,7 @@ body{
 
 .score-board-container 
 {
+    margin-top: 25px;
     width: 700px;
     height:200px;
     display:flex;
