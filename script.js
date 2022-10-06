@@ -45,8 +45,9 @@ function playRound(e) {
     overallWinner(userValue,pcValue);
     return;
     }else {
-    pcScore++; personScore++;
-    middleBoxDisplay.textContent = " -- Tie -- ";
+      
+    middleBoxDisplay.style.color = "red"; 
+    middleBoxDisplay.textContent = " -- Tie -- NO POINTS AWARDED ";
     
     scoreBoxMiddle.append(middleBoxDisplay);
     upDateBoxLeft(userValue.toUpperCase());
